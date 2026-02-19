@@ -1,13 +1,13 @@
 {% set name = "scna-spice" %}
 {% set version = "0.1.0" %}
-{% set hash = "395302f9286b6b384de7bc3b518feeb103ca465b3549ed922de91c3bed7726bc" %}
+{% set hash = "5dacad73df5397b95dc129d80ee18d598f42d7f6134fdc21ed5e6fd90c483bf3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: "https://files.pythonhosted.org/packages/6c/ef/bf33715252533ad6647f00610c47a0dc30054e5cd514d006743c400d5dca/scna_spice-0.1.0.tar.gz"
   sha256: {{ hash }}
 
 build:
