@@ -34,7 +34,6 @@ requirements:
     - fire
     - pyyaml
     - joblib
-    - ortools 9.8.3296
     - importlib_resources >=5.0  # [py<39]
 
 test:
